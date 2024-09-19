@@ -1,0 +1,95 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #f1f5f8;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.app-title {
+  color: #1e293b;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input,
+.textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #94a3b8;
+}
+
+.add-button {
+  background-color: #0284c7;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #0369a1;
+}
+
+.comments-count {
+  color: #475569;
+  margin-top: 20px;
+}
+
+.comments-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.comment-item {
+  background-color: #ffffff;
+  border: 1px solid #cbd2d9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.comment-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  color: #0b69ff;
+  font-size: 18px;
+}
+
+.time {
+  color: #64748b;
+  font-size: 14px;
+}
+
+.comment {
+  color: #475569;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.like-button,
+.delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.like-image,
+.delete-image {
+  width: 20px;
+}
